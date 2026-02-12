@@ -6,7 +6,7 @@ namespace SQLTestDB.Data
 {
     public class SqlConn
     {
-        private static string connString = "Server=ITWW007LAP56797;Database=CompanyDB;Trusted_Connection=True;TrustServerCertificate=True;";
+        private static string connString = "Server=server-name;Database=CompanyDB;Trusted_Connection=True;TrustServerCertificate=True;";
         public static SqlConnection GetConnection()
         {
             return new SqlConnection(connString);
